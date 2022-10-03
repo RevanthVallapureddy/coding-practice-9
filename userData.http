@@ -1,0 +1,30 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "revanth_180",
+  "name": "revanth vallapureddy",
+  "password": "revanth_1997",
+  "gender": "male",
+  "location": "kovvuru"
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "revanth_180",
+  "password": "revanth_1997"
+}
+
+###
+PUT http://localhost:3000/change-password
+Content-Type: application/json
+
+{
+  "username": "revanth_180",
+  "oldPassword": "revanth_1997",
+  "newPassword": "revanth_1994"
+}
+
